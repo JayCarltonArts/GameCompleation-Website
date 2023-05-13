@@ -12,17 +12,19 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        color: white;
       }
-
       /* Adjust the width and margin of the table */
       table {
         width: 80%;
         max-width: 800px;
-        margin: 20px;
+        background-color: white;
       }
 
       /* Style the table header */
       th {
+        width: 80%;
+        max-width: 800px;
         font-weight: bold;
         text-align: left;
       }
@@ -55,4 +57,4 @@
   </body>
 </html>
 {%endblock%}
-{% endblock %} {% block footer %} {% include 'footer.html' %} {% endblock %}
+{% block footer %} {% include 'footer.html' %} {% endblock %}

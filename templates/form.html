@@ -13,12 +13,12 @@ block content %}
     justify-content: center;
     align-items: flex-start;
     height: 100%;
-    color: white;
+    color: whitesmoke;
   }
 </style>
 <div class="container">
   <h1>My Games</h1>
-  <form action="{{ url_for('view_all_games') }}" method="POST">
+  <form action="/norbertocc{{ url_for('view_all_games') }}" method="POST">
     <div class="form-group">
       <label for="username">Username:</label>
       <input type="text" class="form-control" id="username" name="username" />
